@@ -1,0 +1,89 @@
+body{
+    background-color: #F5F0DC;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    width: 940px;
+    margin: auto;
+}
+nav{
+    width:200;
+    float:left;
+}
+#titulo{
+    text-align: center;
+    font-size:24px;
+}
+nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+nav ul li{
+
+    background-color: #C7BE9B;
+    margin-bottom: 5px;
+    
+}
+nav ul li:hover{
+     background-color: #9C8F67;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#conteudo{
+    width: 740px;
+    float:right;
+}
+h2{
+    background:  linear-gradient(top , #B3A742, #C7BE9B); /* For Firefox 3.6 to 15 */
+    background: -webkit-linear-gradient(top  , #B3A742, #C7BE9B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top , #B3A742, #C7BE9B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top , #B3A742, #C7BE9B); /* For Firefox 3.6 to 15 */
+    border-radius:15px;
+    border: 1px solid black;
+    font-size:18px;
+    padding: 5px;
+    color: #FFFFFF;
+}
+figure{
+    background-color:white;
+    width:400px;
+    text-align:center;
+    padding:15px;
+    font-family:'Comic Sans MS',cursive;
+    border:1px solid black;
+     box-shadow:5px 5px 3px rgba(0,0,0,0.7);
+    
+}
+figure:hover{
+     -webkit-transform:rotate(-5deg);
+}
+
+a:hover{
+    text-decoration:underline;
+   }
+#topo figure{
+    text-align: center;   
+}
+#topo figcaption{
+    font-size:12px;
+}
+#tb-nutrientes{
+    border:1px solid black;
+    width:40%;
+    margin:auto;
+}
+#tb-nutrientes th{
+ background-color: #F8EA6B;
+}
+ #tb-nutrientes tr:nth-child(odd){
+    background-color: #FFFFFF;
+}
+ #tb-nutrientes tr:nth-child(even){
+    background-color: #F8EAB3;
+}
+#banner{
+    top:0;
+    right: 0;
+    position:fixed;
+}
