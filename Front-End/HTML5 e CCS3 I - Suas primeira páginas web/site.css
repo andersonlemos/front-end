@@ -7,6 +7,9 @@ body{
 h1,h2{
     font-family: "Open Sans Condensed","Arial",sans-serif;
 }
+main a{
+    color: #851944;
+}
 main h1 {
     color:#fafffa;
     background-color:#851944;
@@ -22,6 +25,10 @@ blockquote {
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+}
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
 }
 
 footer {
