@@ -9,27 +9,35 @@ h1,
 h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
-
+h2{
+    font-size: 30px;
+}
 main a {
     color: #851944;
 }
 
 main h1 {
+    font-size: 60px;
     color: #fafffa;
     background-color: #851944;
     text-align: center;
     padding: 25px;
     margin: 0;
     border-bottom: 10px solid #000;
+    
 }
 
 div {
     width: 720px;
     margin-left: auto;
     margin-right: auto;
+    padding-top:30px;
+    padding-bottom: 30px;
 }
 
 p {
+    margin-top:20px;
+    margin-bottom: 20px;
     text-align: justify;
 }
 
@@ -44,9 +52,9 @@ blockquote {
     border: 10px solid #C2CCCA;
     border-bottom-color: #333;
     border-right-color: #FFF;
-    margin: 0;
-    width: 250px;
-    box-sizing: border-box;
+   margin:20px 40px;
+   width: 250px;
+   box-sizing: border-box;
 }
 
 aside {
@@ -59,7 +67,10 @@ aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
 }
-
+aside h1{
+     font-size: 30px;
+    margin-bottom: 25px;
+}
 footer {
     background-color: #000;
     color: #F2FFFC;
@@ -67,4 +78,10 @@ footer {
 
 nav a {
     color: #F2FFFC;
+}
+strong{
+    font-weight: bold;
+}
+em{
+    font-style: italic;
 }
