@@ -10,6 +10,7 @@ h1, h2 {
 }
 
 .titulo-principal {
+	text-transform: uppercase;
 	text-align: center;
 	background-color: #851944;
 	color: #FFF;
@@ -30,7 +31,11 @@ p {
 	box-sizing: border-box;
 	margin: 20px 40px;
 }
-
+cite{
+	font-style: italic;
+	float: right;
+	display: block;
+}
 .navegacao-site {
 	text-align: center;
 	background-color: #3C1D3D;
@@ -65,7 +70,9 @@ main a {
 	font-size: 30px;
 	margin-bottom: 25px;
 }
-
+nav  a{
+	text-transform: lowercase;
+}
 strong {
 	font-weight: bold;
 }
@@ -76,12 +83,28 @@ em {
 
 .subtitulo-texto {
 	font-size: 30px;
+	clear:both;
 }
 
 .icones-redes-sociais li {
 	display: inline-block;
 }
+.icones-redes-sociais a{
+	width:40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -9999999px;
 
+}
+.github{
+	background-image: url('github.png');
+}
+.twitter{
+	background-image: url('twitter.png');
+}
+.linkedin{
+	background-image: url('linkedin.png');
+}
 .artigo {
 	padding-bottom: 30px;
 	border-bottom: 1px solid #ccc;
@@ -95,4 +118,10 @@ em {
 	font-size: 24px;
 	text-align: center;
 	background-color: #E6E7E8;
+}
+.fiat{
+	float:right;
+}
+.petrobras{
+	float:left;
 }
