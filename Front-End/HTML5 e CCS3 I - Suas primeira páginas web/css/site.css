@@ -45,6 +45,12 @@ cite{
 .rodape-pagina {
 	background-color: #000;
 	color: #F2FFFC;
+	clear: both;
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	
 }
 
 main a {
@@ -97,13 +103,13 @@ em {
 
 }
 .github{
-	background-image: url('github.png');
+	background-image: url('../img/github.png');
 }
 .twitter{
-	background-image: url('twitter.png');
+	background-image: url('../img/twitter.png');
 }
 .linkedin{
-	background-image: url('linkedin.png');
+	background-image: url('../img/linkedin.png');
 }
 .artigo {
 	padding-bottom: 30px;
@@ -124,4 +130,25 @@ em {
 }
 .petrobras{
 	float:left;
+}
+.minha-foto, .navegacao-site{
+		box-sizing: border-box;
+		float:right;	
+		border-left: 10px solid black;
+ 	    border-bottom: 10px solid black;
+}
+.minha-foto{
+	position: absolute;
+	top:0;
+	right:0;
+}
+.navegacao-site{
+	width: 15%;
+	position:relative;
+	top:310px;
+}
+main{
+	width: 85%;
+	float:left;
+	padding-bottom:80px;
 }
